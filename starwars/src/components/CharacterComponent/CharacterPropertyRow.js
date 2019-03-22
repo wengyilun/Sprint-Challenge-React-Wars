@@ -2,11 +2,11 @@ import React from 'react'
 import './Character.css'
 
 
-const CharacterPropertyRow = ()=>{
+const CharacterPropertyRow = (props)=>{
 	return (
 		<div className="property-row-container">
-			<label>Name:</label>
-			<h2>Luke Skywalker</h2>
+			<label>{props.propName}:</label>
+			<h2>{props.propValue}</h2>
 		</div>
 	)
 }
