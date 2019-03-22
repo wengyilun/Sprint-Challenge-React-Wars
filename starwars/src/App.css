@@ -5,4 +5,26 @@
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
+
+body{
+  height: 100vh;
+  font-size: 62.5%;
+  line-height: 1.25rem;
+  margin: auto auto;
+}
+
+ul, li, h1, h2, h3, h4, h5, h6, p{
+  padding:0;
+  margin: 0;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+ul{
+}
+
 /* write your parent styles in here for your App.js */
+
