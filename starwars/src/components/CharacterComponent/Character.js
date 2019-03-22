@@ -1,7 +1,7 @@
 import React from 'react'
 import CharacterPropertyRow from "./CharacterPropertyRow";
+import CharacterPropsList from "./CharacterPropsList";
 import './Character.css'
-
 
 const Character = (props)=>{
 	const {data} = props;
@@ -22,6 +22,10 @@ const Character = (props)=>{
 					<CharacterPropertyRow propValue={data['hair_color']} propName={'Hair Color'}/>
 					<CharacterPropertyRow propValue={data['skin_color']} propName={'Skin Color'}/>
 					<CharacterPropertyRow propValue={data['eye_color']} propName={'Eye Color'}/>
+					
+					<CharacterPropsList propValue={data['species']} propName={'Species'}/>
+					<CharacterPropsList propValue={data['vehicles']} propName={'Vehicles'}/>
+					<CharacterPropsList propValue={data['starships']} propName={'Starships'}/>
 				</li>
 			</ul>
 		</div>
