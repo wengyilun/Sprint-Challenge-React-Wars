@@ -1,6 +1,8 @@
 import React from 'react'
+import './Character.css'
 
-const PropertyRow = ()=>{
+
+const CharacterPropertyRow = ()=>{
 	return (
 		<div className="property-row-container">
 			<label>Name:</label>
@@ -9,4 +11,4 @@ const PropertyRow = ()=>{
 	)
 }
 
-export default PropertyRow
+export default CharacterPropertyRow

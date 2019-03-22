@@ -1,15 +1,28 @@
 import React from 'react'
-import PropertyRow from "./PropertyRow";
+import CharacterPropertyRow from "./CharacterPropertyRow";
+import './Character.css'
+
 
 const Character = ()=>{
 	return (
-		<ul className="character-list">
-			<li>
-				<PropertyRow/>
-				<PropertyRow/>
-				<PropertyRow/>
-			</li>
-		</ul>
+		<div className="character-props-container">
+			<h2>Luke Skywalker</h2>
+			<ul className="character-props-list">
+				<li>
+					<CharacterPropertyRow/>
+				</li>
+				<li>
+					<CharacterPropertyRow/>
+				</li>
+				<li>
+					<CharacterPropertyRow/>
+				</li>
+				<li>
+					<CharacterPropertyRow/>
+				</li>
+			</ul>
+		</div>
+	
 	)
 }
 

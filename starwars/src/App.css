@@ -1,5 +1,10 @@
+*{
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
+
 }
 .Header {
   color: #443e3e;
@@ -10,7 +15,8 @@ body{
   height: 100vh;
   font-size: 62.5%;
   line-height: 1.25rem;
-  margin: auto auto;
+  margin: 0 auto;
+  padding-top: 40px;
 }
 
 ul, li, h1, h2, h3, h4, h5, h6, p{
@@ -24,6 +30,11 @@ img{
 }
 
 ul{
+  list-style-type: none;
+}
+
+li{
+  margin-bottom: 1rem;
 }
 
 /* write your parent styles in here for your App.js */
