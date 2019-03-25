@@ -24,13 +24,33 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- [X] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+React JS uses composition versus inheritance like other languages such as Java and C++ which often leads to unnecessarily large child classes because of the inheritance.
+Composition (of the functions) on the other hand is much flexible and can be used to build very complex apps without the overhead of its ancestors' properties and values.
 
-- [ ] What does it mean to _think_ in react?
+Also, a lot of Javascript is imperative code while ReactJS library is declarative compared to imperative which means the instead writing code to tell the program to execute following specific steps, 
+declarative code only need to declare what is expected of the result, the rest is handled by React library. Example of this is the use of Filter and Map function to get the expected result in one single line.
+const greeting = people.map(name => 'Morning' + name)
 
-- [ ] Describe state.
+Finally, ReactJs is unidirectional, meaning the data flow only flows one-way, from parent to child components. This help solve a lot of issue that many other frameworks like AngularJs and EmberJS whom implements 
+two-way binding faces. Two-way binding can make the code hard to maintain and debug because the origin of the 
+changes can be hard to pin point for both the parents and children can update the data. 
 
-- [ ] Describe props.
+
+- [X] What does it mean to _think_ in react?
+1. Break the UI into components
+2. Build a static version of the app
+3. Identify the minimal representation of the state
+4. Identify where the state should live
+5. Add the inverse flow (ie. Event and their Listeners)
+
+- [X] Describe state.
+State is a type of data object in React that holds values that changes over time based on interactions with the user or outside sources.
+It should hold values that are pure and not computable from other sources. 
+
+- [X] Describe props.
+Props is a type of data object in React. It's value is static, unchanged overtime and is passed top down from the component chain.
+The child components uses this to render its own viw.
 
 ## Project Set Up
 

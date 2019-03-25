@@ -1,8 +1,48 @@
+*{
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
+  padding-top: 40px;
+  background: rgba(0, 0, 0, 0.7);
+  border:10px solid black;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
-.Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+
+.Header{
+  font-size: 4rem;
+  display: block;
+  padding: 40px;
+  color: #222;
+  background: greenyellow;
 }
+
+body{
+  height: 100vh;
+  font-size: 62.5%;
+  line-height: 1.25rem;
+  margin: 0 auto;
+}
+
+ul, li, h1, h2, h3, h4, h5, h6, p{
+  padding:0;
+  margin: 0;
+}
+
+img{
+  max-height: 100%;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  margin-bottom: 1rem;
+}
+
 /* write your parent styles in here for your App.js */
